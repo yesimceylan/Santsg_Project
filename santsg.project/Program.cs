@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using santsg.project.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Yapýlandýrma,register iþlemi yapýldý
+builder.Services.AddDbContext<santsgProjectDbContext>(
+ options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
