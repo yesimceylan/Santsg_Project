@@ -10,5 +10,6 @@ namespace santsg.project.Data
             //options ile bağlantı dizesi alınmış olacak
         }
         public DbSet<User> Users { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
     }
 }

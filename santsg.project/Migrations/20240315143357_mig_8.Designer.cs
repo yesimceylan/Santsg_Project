@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using santsg.project.Data;
 
@@ -11,9 +12,11 @@ using santsg.project.Data;
 namespace santsg.project.Migrations
 {
     [DbContext(typeof(santsgProjectDbContext))]
-    partial class santsgProjectDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240315143357_mig_8")]
+    partial class mig_8
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
