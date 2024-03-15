@@ -33,6 +33,15 @@ C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Micro
 C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\System.Composition.Convention.dll
