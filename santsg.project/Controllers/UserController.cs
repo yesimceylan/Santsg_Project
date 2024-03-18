@@ -5,14 +5,13 @@ using Microsoft.Identity.Client;
 using santsg.project.Data;
 using santsg.project.Entities;
 using santsg.project.Interfaceses;
-using santsg.project.Models;
+using santsg.project.Models.Request;
 using santsg.project.Services;
 using Serilog;
 
 namespace santsg.project.Controllers
 {
-    [Controller]
-    public class UserController : ControllerBase
+    public class UserController : Controller
     {
         private readonly santsgProjectDbContext _dbContext;
         private readonly IMailService _mailService;
@@ -21,6 +20,15 @@ namespace santsg.project.Controllers
         {
             _dbContext = dbContext;
             _mailService = mailService;
+        }
+
+        public IActionResult CreateUserIndex()
+        {
+            return View();
+        }
+        public IActionResult UpdateUserIndex()
+        {
+            return View();
         }
 
         [HttpGet]
@@ -42,14 +50,18 @@ namespace santsg.project.Controllers
             Log.Information($"User with id {user?.Id} is listed."); 
             return Ok(user);
         }
+
         [HttpPost]
-        public async Task<IActionResult> AddUser([FromBody] AddUserRequestModel User)
+        public async Task<IActionResult> AddUser(AddUserRequestModel User)
         {
             User newUser = new()
             {
                 Username = User.Username,
                 Password = User.Password,
-                Email = User.Email
+                Email = User.Email,
+                PhoneNumber=User.PhoneNumber,
+                Age=User.Age
+
             };
             await _dbContext.Users.AddAsync(newUser);
             await _dbContext.SaveChangesAsync();
@@ -60,8 +72,8 @@ namespace santsg.project.Controllers
             string body = "Your registration has been successfully created.";
 
             await _mailService.SendEmailAsync(toMail, subject, body);
-            Log.Information($"{newUser} user added."); 
-            return Ok("Email sent successfully. ");
+            Log.Information($" Username : {newUser.Username} Email: {newUser.Email} user added."); 
+            return RedirectToAction("Index", "Home");
 
         }
 
@@ -94,11 +106,15 @@ namespace santsg.project.Controllers
             updatedUser.Username = user?.Username;
             updatedUser.Password = user?.Password;
             updatedUser.Email = user?.Email;
+            updatedUser.PhoneNumber = user?.PhoneNumber;
+            updatedUser.Age = user?.Age;
 
             await _dbContext.SaveChangesAsync();
 
             Log.Information($"{updatedUser} user updated.");
-            return Ok(updatedUser);
+            return RedirectToAction("Index", "Home");
+
+
         }
     }
 

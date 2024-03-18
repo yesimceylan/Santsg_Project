@@ -10,12 +10,12 @@ namespace santsg.project.Controllers
         {
             var hotelList = new List<Hotel>() 
             { 
-                new Hotel() 
+                new() 
                 {
                     HotelName = "Star",
                     HotelLocation = "Konyaaltı"
                 },
-                new Hotel() 
+                new() 
                 {
                     HotelName = "Cale",
                     HotelLocation = "Muratpasa"
