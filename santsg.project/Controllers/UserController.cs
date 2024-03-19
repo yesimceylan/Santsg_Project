@@ -32,7 +32,11 @@ namespace santsg.project.Controllers
         {
             return View();
         }
-
+ 
+        public IActionResult DeleteUserIndex()
+        {
+            return View();
+        }
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
@@ -91,7 +95,7 @@ namespace santsg.project.Controllers
             else
             {
                 Log.Information($"{deletedUser} user silindi.");
-                return Ok($" {deletedUser} user deleted.");
+                return RedirectToAction("Index", "Home");
             }
         }
 

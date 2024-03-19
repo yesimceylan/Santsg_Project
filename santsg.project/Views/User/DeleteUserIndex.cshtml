@@ -1,0 +1,16 @@
+﻿@model santsg.project.Entities.User;
+@{
+    ViewData["Title"] = "DeleteUserIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DeleteUserIndex</h1>
+
+<form action="DeleteUser" controller ="User" method="post">
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Id)</span>
+    </div>
+    <button type="subnmit" class="btn btn-primary">Delete</button>
+</form>

@@ -7,13 +7,42 @@
 <h1>UpdateUserIndex</h1>
 
 <form asp-action="UpdateUser" asp-controller="User" method="post">
-    
-    
     <div class="form-group">
         <label asp-for="Id"></label>
-        <input type="Id" asp-for="Password" class="form-control" />
+        <input asp-for="Id" class="form-control" />
         <span class="text-danger">@Html.ValidationMessageFor(m => m.Id)</span>
     </div>
-    <button type="submit" class="btn btn-primary">Find</button>
+
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Username)</span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input type="password" asp-for="Password" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Password)</span>
+    
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Email)</span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.PhoneNumber)</span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Age"></label>
+        <input asp-for="Age" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Age)</span>
+    </div>
+    <br />
+    <button type="menu" class="btn btn-primary">Update</button>
 </form>
 
