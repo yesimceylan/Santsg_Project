@@ -13,3 +13,8 @@
 2024-03-19 13:31:51.969 +03:00 [INF] santsg.project.Entities.User user updated.
 2024-03-19 14:17:09.700 +03:00 [INF] santsg.project.Entities.User user updated.
 2024-03-19 14:18:28.364 +03:00 [INF] santsg.project.Entities.User user updated.
+2024-03-19 16:21:10.716 +03:00 [INF] santsg.project.Entities.User user silindi.
+2024-03-19 16:52:40.624 +03:00 [INF] santsg.project.Entities.User user silindi.
+2024-03-19 17:05:09.707 +03:00 [INF]  Username : celal Email: celalkilnc@gmail.com user added.
+2024-03-19 17:40:01.195 +03:00 [INF] santsg.project.Entities.User user silindi.
+2024-03-19 18:17:37.908 +03:00 [INF] santsg.project.Entities.User user updated.

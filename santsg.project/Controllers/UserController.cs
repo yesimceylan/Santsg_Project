@@ -86,7 +86,7 @@ namespace santsg.project.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var deletedUser = await _dbContext.Users.Where(x => x.Id == id).ExecuteDeleteAsync();
+            var deletedUser = await _dbContext.Users.FindAsync(id);
             if (deletedUser == null)
             {
                 Log.Information("User not found during deletion!");
@@ -94,6 +94,9 @@ namespace santsg.project.Controllers
             }
             else
             {
+                _dbContext.Users.Remove(deletedUser);
+                await _dbContext.SaveChangesAsync();
+
                 Log.Information($"{deletedUser} user silindi.");
                 return RedirectToAction("Index", "Home");
             }
@@ -102,17 +105,7 @@ namespace santsg.project.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateUser(UpdateUserRequestModel user)
         {
-            string requestBody;
-            using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
-            {
-                requestBody = await reader.ReadToEndAsync();
-            }
-
-            // Parse the request body content into your model
-            user = Newtonsoft.Json.JsonConvert.DeserializeObject<UpdateUserRequestModel>(requestBody);
-
-
-            var updatedUser = await _dbContext.Users.FindAsync(user.Id);
+            var updatedUser = await _dbContext.Users.FindAsync(user?.Id);
             if (updatedUser == null)
             {
                 return NotFound(); 
