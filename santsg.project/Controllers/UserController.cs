@@ -8,9 +8,11 @@ using santsg.project.Interfaceses;
 using santsg.project.Models.Request;
 using santsg.project.Services;
 using Serilog;
+using System.Text;
 
 namespace santsg.project.Controllers
 {
+    [Controller] 
     public class UserController : Controller
     {
         private readonly santsgProjectDbContext _dbContext;
@@ -59,43 +61,53 @@ namespace santsg.project.Controllers
                 Username = User.Username,
                 Password = User.Password,
                 Email = User.Email,
-                PhoneNumber=User.PhoneNumber,
-                Age=User.Age
+                PhoneNumber = User.PhoneNumber,
+                Age = User.Age
 
             };
             await _dbContext.Users.AddAsync(newUser);
             await _dbContext.SaveChangesAsync();
 
 
-            string toMail = newUser.Email;
+            string? toMail = newUser.Email;
             string subject = "Information!";
             string body = "Your registration has been successfully created.";
 
             await _mailService.SendEmailAsync(toMail, subject, body);
-            Log.Information($" Username : {newUser.Username} Email: {newUser.Email} user added."); 
+            Log.Information($" Username : {newUser.Username} Email: {newUser.Email} user added.");
             return RedirectToAction("Index", "Home");
 
         }
 
-        [HttpPost("{id}")]
-        public async Task<IActionResult> DeleteUser([FromBody] int id)
+        [HttpPost]
+        public async Task<IActionResult> DeleteUser(int id)
         {
             var deletedUser = await _dbContext.Users.Where(x => x.Id == id).ExecuteDeleteAsync();
-            if (deletedUser == null) 
+            if (deletedUser == null)
             {
                 Log.Information("User not found during deletion!");
                 return NotFound();
             }
             else
             {
-                Log.Information($"{deletedUser} user silindi."); 
-                return Ok($" {deletedUser} user deleted." );
+                Log.Information($"{deletedUser} user silindi.");
+                return Ok($" {deletedUser} user deleted.");
             }
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateUser([FromBody] UpdateUserRequestModel user)
+        [HttpPost]
+        public async Task<IActionResult> UpdateUser(UpdateUserRequestModel user)
         {
+            string requestBody;
+            using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
+            {
+                requestBody = await reader.ReadToEndAsync();
+            }
+
+            // Parse the request body content into your model
+            user = Newtonsoft.Json.JsonConvert.DeserializeObject<UpdateUserRequestModel>(requestBody);
+
+
             var updatedUser = await _dbContext.Users.FindAsync(user.Id);
             if (updatedUser == null)
             {
@@ -109,10 +121,11 @@ namespace santsg.project.Controllers
             updatedUser.PhoneNumber = user?.PhoneNumber;
             updatedUser.Age = user?.Age;
 
+            _dbContext.Update<User>(updatedUser);
             await _dbContext.SaveChangesAsync();
 
             Log.Information($"{updatedUser} user updated.");
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index","Home");
 
 
         }
