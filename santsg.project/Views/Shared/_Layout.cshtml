@@ -36,7 +36,7 @@
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                                data-bs-toggle="dropdown" aria-expanded="false">
 
-                                User
+                                User Options
 
                             </a>
 
@@ -45,6 +45,12 @@
                                 <li>
 
                                     <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="CreateUserIndex">Create User</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="GetUserByIdIndex">Get User</a>
 
                                 </li>
 
@@ -60,6 +66,37 @@
 
                                 </li>
                             </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+
+                                Hotel Options
+
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="AddHotelIndex">Create Hotel</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="UpdateHotelIndex">Update Hotel</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="DeleteHotelIndex">Delete Hotel</a>
+
+                                </li>
+                            </ul>
+                        </li>
                 </div>
             </div>
         </nav>

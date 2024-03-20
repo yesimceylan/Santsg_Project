@@ -1,0 +1,16 @@
+﻿@model santsg.project.Entities.Hotel;
+@{
+    ViewData["Title"] = "DeleteHotelIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DeleteHotelIndex</h1>
+
+<form action="DeleteHotel" asp-controller="Hotel" method="post">
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Id)</span>
+        <button type="submit" class="btn btn-primary">Delete</button>
+    </div>
+</form>

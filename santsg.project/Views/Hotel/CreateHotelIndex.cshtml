@@ -1,0 +1,39 @@
+﻿@model santsg.project.Entities.Hotel;
+
+@{
+    ViewData["Title"] = "CreateHotelIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create User</h1>
+
+<form asp-action="AddHotel" asp-controller="Hotel" method="post">
+
+    <div class="form-group">
+        <label asp-for="HotelName"></label>
+        <input asp-for="HotelName" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.HotelName)</span>
+    </div>
+    <div class="form-group">
+        <label asp-for="City"></label>
+        <input asp-for="City" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.City)</span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Location)</span>
+    </div>
+    <div class="from-group">
+        <label asp-for="StarRating"></label>
+        <input asp-for="StarRating" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.StarRating)</span>
+    </div>
+    <div class="from-group">
+        <label asp-for="HotelImage"></label>
+        <input asp-for="HotelImage" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.HotelImage)</span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Save</button>
+</form> 

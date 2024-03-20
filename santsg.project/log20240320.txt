@@ -1,3 +1,11 @@
 2024-03-20 13:59:05.890 +03:00 [INF]  Username : hilal Email: yesimceylan7@icloud.com user added.
 2024-03-20 13:59:43.810 +03:00 [INF] santsg.project.Entities.User user updated.
 2024-03-20 13:59:55.082 +03:00 [INF] santsg.project.Entities.User user silindi.
+2024-03-20 18:03:19.171 +03:00 [INF]  Username : ebhdjhfkj Email: sggsfsd@gail.com user added.
+2024-03-20 18:06:51.177 +03:00 [INF] HotelName: , HotelId: 1 added
+2024-03-20 18:07:04.616 +03:00 [INF] HotelName: , HotelId: 2 added
+2024-03-20 18:10:25.690 +03:00 [INF] HotelName: , HotelId: 3 added
+2024-03-20 18:10:33.793 +03:00 [INF] HotelName: , HotelId: 4 added
+2024-03-20 18:11:10.948 +03:00 [INF] HotelName: , HotelId: 5 added
+2024-03-20 18:18:40.980 +03:00 [INF] HotelName: , HotelId: 6 added
+2024-03-20 18:19:29.897 +03:00 [INF] HotelName: , HotelId: 7 added

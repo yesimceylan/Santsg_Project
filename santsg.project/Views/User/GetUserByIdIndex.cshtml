@@ -1,0 +1,19 @@
+﻿@model santsg.project.Entities.User;
+
+@{
+    ViewData["Title"] = "CreateUserIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create User</h1>
+
+<form asp-action="GetUserById" asp-controller="User" method="post">
+
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Id)</span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Get</button>
+</form> 

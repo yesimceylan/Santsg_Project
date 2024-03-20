@@ -37,6 +37,10 @@ namespace santsg.project.Controllers
         {
             return View();
         }
+        public IActionResult GetUserByIdIndex()
+        {
+            return View();
+        }
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
