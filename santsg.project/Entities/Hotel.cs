@@ -1,11 +1,12 @@
 ﻿namespace santsg.project.Entities
 {
-    public class Hotel
+    public class Hotel : BaseEntity
     {
-        public int HotelId { get; set; }
-        public string? HotelName {  get; set; }
-        public string? City {  get; set; }
-        public string? HotelLocation { get; set; }
+        public string? HotelName { get; set; }
+        public string? City{ get; set; }
+        public string? Location { get; set; }
+        public string? StarRating { get; set; }
         public string? HotelImage { get; set; }
+
     }
 }

@@ -24,11 +24,11 @@ namespace santsg.project.Migrations
 
             modelBuilder.Entity("santsg.project.Entities.Hotel", b =>
                 {
-                    b.Property<int>("HotelId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HotelId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
@@ -36,13 +36,16 @@ namespace santsg.project.Migrations
                     b.Property<string>("HotelImage")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("HotelLocation")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("HotelName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("HotelId");
+                    b.Property<string>("Location")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StarRating")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
 
                     b.ToTable("Hotels");
                 });

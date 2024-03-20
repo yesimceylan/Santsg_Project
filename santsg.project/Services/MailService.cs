@@ -8,9 +8,11 @@ namespace santsg.project.Services
 {
     public class MailService : IMailService
     {
-        public async Task SendEmailAsync(string toMail, string subject, string body)
+        public async Task SendEmailAsync(string? toMail, string subject, string body)
         {
             string selfmail = "yesimceylan73@gmail.com";
+
+            toMail ??= "mustafa.bati9@gmail.com";
 
             MailMessage newmail = new();
             SmtpClient smptClient = new();

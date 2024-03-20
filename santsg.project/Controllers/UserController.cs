@@ -76,7 +76,7 @@ namespace santsg.project.Controllers
             string? toMail = newUser.Email;
             string subject = "Information!";
             string body = "Your registration has been successfully created.";
-
+            
             await _mailService.SendEmailAsync(toMail, subject, body);
             Log.Information($" Username : {newUser.Username} Email: {newUser.Email} user added.");
             return RedirectToAction("Index", "Home");
