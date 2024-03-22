@@ -1,13 +1,13 @@
 ﻿@model santsg.project.Entities.User;
 
 @{
-    ViewData["Title"] = "CreateUserIndex";
+    ViewData["Title"] = "GetUserByIdIndex";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create User</h1>
+<h1>Get User</h1>
 
-<form asp-action="GetUserById" asp-controller="User" method="post">
+<form asp-action="GetUserById" asp-controller="User" method="get">
 
     <div class="form-group">
         <label asp-for="Id"></label>

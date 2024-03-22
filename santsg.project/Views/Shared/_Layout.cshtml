@@ -44,13 +44,19 @@
 
                                 <li>
 
-                                    <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="CreateUserIndex">Create User</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="GetUserIndex">List Users</a>
 
                                 </li>
 
                                 <li>
 
                                     <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="GetUserByIdIndex">Get User</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="CreateUserIndex">Create User</a>
 
                                 </li>
 
@@ -77,10 +83,22 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="GetHotelIndex">List Hotels</a>
+
+                                </li>
 
                                 <li>
 
-                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="AddHotelIndex">Create Hotel</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="GetHotelByIdIndex">Get Hotel</a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Hotel" asp-action="CreateHotelIndex">Create Hotel</a>
 
                                 </li>
 
@@ -97,7 +115,11 @@
                                 </li>
                             </ul>
                         </li>
-                </div>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-black" asp-area="" asp-controller="Hotel" asp-action="SearchHotelIndex">Search Hotel</a>
+
+                        </li>
             </div>
         </nav>
     </header>

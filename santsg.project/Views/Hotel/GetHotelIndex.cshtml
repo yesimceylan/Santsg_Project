@@ -1,0 +1,24 @@
+﻿@model List<santsg.project.Entities.Hotel>
+@{
+    ViewData["Title"] = "GetHotelIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hotel List</h1>
+<br /><br />
+
+    @{
+        if (Model != null)
+        {
+            foreach (var hotels in Model)
+            {
+                <div><b>@hotels?.HotelName</b></div><br />
+                <div><img src="@hotels?.HotelImage" style="height:100px; width:100px;" /></div><br />
+            }
+        }
+        else
+        {
+            <div>Hotel not found !</div>
+        }
+    }
+

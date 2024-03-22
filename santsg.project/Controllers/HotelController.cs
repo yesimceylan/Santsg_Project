@@ -31,16 +31,27 @@ namespace santsg.project.Controllers
         {
             return View();
         }
-
-
-        [HttpGet]
-        public async Task<IActionResult> ListHotel()
+        public IActionResult GetHotelIndex()
         {
+            var hotels = _dbContext.Hotels.ToList();
             Log.Information("Hotels listed.");
-            return Ok(await _dbContext.Hotels.ToListAsync());
+            return View(hotels);
+        }
+        public IActionResult GetHotelByIdIndex()
+        {
+            return View();
+        }
+
+        public IActionResult SearchHotelIndex()
+        {
+            return View();
+        }
+        public IActionResult SearchedHotelIndex()
+        {
+            return View();
         }
         [HttpGet]
-        public async Task<IActionResult> GetHotelById(int id)
+        public async Task<IActionResult> GetHotelById(Guid id)
         {
             var hotel = await _dbContext.Hotels.FindAsync(id);
             if (hotel == null)
@@ -55,7 +66,7 @@ namespace santsg.project.Controllers
         {
             Hotel newHotel = new()
             {
-                Id = hotel.Id,
+                
                 HotelName = hotel.HotelName,
                 City = hotel.City,
                 Location = hotel.Location,
@@ -69,7 +80,7 @@ namespace santsg.project.Controllers
             return RedirectToAction("Index", "Home");
         }
         [HttpPost]
-        public async Task<IActionResult> DeleteHotel(int id)
+        public async Task<IActionResult> DeleteHotel(Guid id)
         {
             var hotel=await _dbContext.Hotels.FindAsync(id);
             if (hotel == null)
@@ -82,26 +93,41 @@ namespace santsg.project.Controllers
             return RedirectToAction("Index", "Home");
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateUser(UpdateHotelRequest hotel)
+        public async Task<IActionResult> UpdateHotel(UpdateHotelRequest hotel)
         {
-            var updatedHotel = await _dbContext.Users.FindAsync(hotel?.Id);
+            var updatedHotel = await _dbContext.Hotels.FindAsync(hotel?.Id);
             if (updatedHotel == null)
             {
                 return NotFound();
             }
 
 
-            updatedHotel.Username = hotel?.HotelName;
-            updatedHotel.Password = hotel?.City;
-            updatedHotel.Email = hotel?.Location;
-            updatedHotel.PhoneNumber = hotel?.StarRating;
-            updatedHotel.Age = hotel?.HotelImage;
+            updatedHotel.HotelName = hotel?.HotelName;
+            updatedHotel.City = hotel?.City;
+            updatedHotel.Location = hotel?.Location;
+            updatedHotel.StarRating = hotel?.StarRating;
+            updatedHotel.HotelImage = hotel?.HotelImage;
 
-            _dbContext.Update<User>(updatedHotel);
+            _dbContext.Update<Hotel>(updatedHotel);
             await _dbContext.SaveChangesAsync();
 
             Log.Information($"{updatedHotel} user updated.");
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SearchHotel(string city)
+        {
+            var hotels = await _dbContext.Hotels.Where(x => x.City.Contains(city)).ToListAsync();
+            if (hotels.Count == 0)
+            {
+                return NotFound("No results found for your search.");
+            }
+            else
+            {
+                ViewBag.HotelName = hotels.Select(x => x.HotelName);
+                return View("SearchedHotelIndex");
+            }
         }
     }
 

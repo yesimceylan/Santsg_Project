@@ -1,0 +1,16 @@
+﻿@using santsg.project.Entities
+@model santsg.project.Entities.Hotel
+
+@{
+    ViewData["Title"] = "SearchHotelIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="SearchHotel" asp-controller="Hotel" method="post">
+    <div class="form-group">
+        <label asp-for="City"></label>
+        <input asp-for="City" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.City)</span>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>

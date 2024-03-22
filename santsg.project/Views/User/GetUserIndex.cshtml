@@ -1,0 +1,23 @@
+﻿@model List<santsg.project.Entities.User>
+@{
+    ViewData["Title"] = "GetUserIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>User List</h1>
+<br /><br />
+
+@{
+    if (Model != null)
+    {
+        foreach (var users in Model)
+        {
+            <div><b>@users?.Username</b></div>
+            <br />
+        }
+    }
+    else
+    {
+        <div>User not found !</div>
+    }
+}

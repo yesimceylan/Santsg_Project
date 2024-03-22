@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
+using NuGet.Versioning;
 using santsg.project.Data;
 using santsg.project.Entities;
 using santsg.project.Interfaceses;
@@ -41,23 +42,23 @@ namespace santsg.project.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public async Task<IActionResult> GetUsers()
+        public IActionResult GetUserIndex()
         {
-            Log.Information("Users listed."); 
-            return Ok(await _dbContext.Users.ToListAsync());
+            var users = _dbContext.Users.ToList();
+            Log.Information("Hotels listed.");
+            return View(users);
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetUserById(int id)
+        public async Task<IActionResult> GetUserById(Guid id)
         {
             var user = await _dbContext.Users.FindAsync(id);
             if (user == null)
             {
-                Log.Information($"User with id {user?.Id} not found.");
+                Log.Information($"User with id {id} not found.");
                 return NotFound(); 
             }
-            Log.Information($"User with id {user?.Id} is listed."); 
+            Log.Information($"User with id {id} is listed.");
             return Ok(user);
         }
 
@@ -83,12 +84,12 @@ namespace santsg.project.Controllers
             
             await _mailService.SendEmailAsync(toMail, subject, body);
             Log.Information($" Username : {newUser.Username} Email: {newUser.Email} user added.");
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("GetUserIndex", "User");
 
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(Guid id)
         {
             var deletedUser = await _dbContext.Users.FindAsync(id);
             if (deletedUser == null)
@@ -101,7 +102,7 @@ namespace santsg.project.Controllers
                 _dbContext.Users.Remove(deletedUser);
                 await _dbContext.SaveChangesAsync();
 
-                Log.Information($"{deletedUser} user silindi.");
+                Log.Information($"{deletedUser.Id} user silindi.");
                 return RedirectToAction("Index", "Home");
             }
         }

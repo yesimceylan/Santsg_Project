@@ -4,9 +4,9 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>DeleteUserIndex</h1>
+<h1>Delete User</h1>
 
-<form action="DeleteUser" controller ="User" method="post">
+<form asp-action="DeleteUser" asp-controller ="User" method="post">
     <div class="form-group">
         <label asp-for="Id"></label>
         <input asp-for="Id" class="form-control" />

@@ -1,0 +1,54 @@
+2024-03-21 11:31:32.031 +03:00 [INF] HotelName: abc, HotelId: 8 added
+2024-03-21 11:38:18.238 +03:00 [INF] Hotel Name:  id:3 is deleted.
+2024-03-21 11:38:22.644 +03:00 [INF] Hotel Name:  id:4 is deleted.
+2024-03-21 11:38:35.006 +03:00 [INF] Hotel Name:  id:5 is deleted.
+2024-03-21 11:38:40.512 +03:00 [INF] Hotel Name:  id:6 is deleted.
+2024-03-21 11:38:52.732 +03:00 [INF] Hotel Name:  id:7 is deleted.
+2024-03-21 11:38:57.426 +03:00 [INF] Hotel Name: abc id:8 is deleted.
+2024-03-21 11:39:21.871 +03:00 [INF] HotelName: Yesim Hotel, HotelId: 9 added
+2024-03-21 11:39:28.152 +03:00 [INF] Hotels listed.
+2024-03-21 11:41:18.406 +03:00 [INF] Hotel Name: Yesim Hotel id:9 is deleted.
+2024-03-21 11:41:25.430 +03:00 [INF] HotelName: Yesim Hotel, HotelId: 10 added
+2024-03-21 11:41:27.680 +03:00 [INF] Hotels listed.
+2024-03-21 11:42:00.326 +03:00 [INF] HotelName: Bati Hotel, HotelId: 11 added
+2024-03-21 11:42:05.867 +03:00 [INF] Hotels listed.
+2024-03-21 11:42:38.765 +03:00 [INF] Hotels listed.
+2024-03-21 11:42:59.640 +03:00 [INF] Hotels listed.
+2024-03-21 11:43:22.892 +03:00 [INF] Hotels listed.
+2024-03-21 11:43:37.023 +03:00 [INF] Hotels listed.
+2024-03-21 11:43:48.630 +03:00 [INF] Hotels listed.
+2024-03-21 11:44:03.841 +03:00 [INF] Hotels listed.
+2024-03-21 14:26:32.659 +03:00 [INF] Hotels listed.
+2024-03-21 14:31:59.911 +03:00 [INF] Hotels listed.
+2024-03-21 14:33:06.520 +03:00 [INF] Hotels listed.
+2024-03-21 14:33:11.325 +03:00 [INF] Hotels listed.
+2024-03-21 14:33:37.666 +03:00 [INF] Hotels listed.
+2024-03-21 14:54:29.179 +03:00 [INF] Hotels listed.
+2024-03-21 14:54:31.953 +03:00 [INF] Hotels listed.
+2024-03-21 14:54:33.996 +03:00 [INF] Hotels listed.
+2024-03-21 14:54:35.866 +03:00 [INF] Hotels listed.
+2024-03-21 14:56:03.580 +03:00 [INF] Hotels listed.
+2024-03-21 14:56:08.338 +03:00 [INF] Hotels listed.
+2024-03-21 15:02:13.715 +03:00 [INF] Hotels listed.
+2024-03-21 15:02:26.406 +03:00 [INF] Hotels listed.
+2024-03-21 15:05:01.793 +03:00 [INF]  Username : yesimceylan Email: yesimceylan7@icloud.com user added.
+2024-03-21 15:06:20.875 +03:00 [INF]  Username : Ahmet Email: ahmet75874@gmail user added.
+2024-03-21 15:06:50.304 +03:00 [INF] HotelName: A Hotel, HotelId: 0c2cdca1-bda1-4c60-4b6b-08dc499f63cd added
+2024-03-21 15:07:41.525 +03:00 [INF] Hotels listed.
+2024-03-21 15:10:05.568 +03:00 [INF] Hotels listed.
+2024-03-21 15:41:01.732 +03:00 [INF] Hotels listed.
+2024-03-21 15:47:47.743 +03:00 [INF] 2f6f29ec-0675-4a83-223c-08dc499f2131 user silindi.
+2024-03-21 15:49:06.709 +03:00 [INF] Hotel Name: A Hotel id:0c2cdca1-bda1-4c60-4b6b-08dc499f63cd is deleted.
+2024-03-21 15:49:23.954 +03:00 [INF] HotelName: jhhjdsfgsdf, HotelId: 799c6884-2c8c-460e-876e-08dc49a555e4 added
+2024-03-21 15:56:13.410 +03:00 [INF] santsg.project.Entities.User user updated.
+2024-03-21 15:56:49.102 +03:00 [INF] santsg.project.Entities.User user updated.
+2024-03-21 16:08:58.212 +03:00 [INF] Hotels listed.
+2024-03-21 17:34:38.508 +03:00 [INF] Hotels listed.
+2024-03-21 17:35:14.119 +03:00 [INF] HotelName: c hotel, HotelId: bc0765b6-3112-4560-993c-08dc49b41ed3 added
+2024-03-21 17:38:12.774 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-03-21 17:47:56.605 +03:00 [INF] HotelId: bc0765b6-3112-4560-993c-08dc49b41ed3 to be viewed.
+2024-03-21 17:52:01.813 +03:00 [INF] User with id f1af8e10-5eba-4862-223d-08dc499f2131 is listed.
+2024-03-21 17:53:35.819 +03:00 [INF] User with id f1af8e10-5eba-4862-223d-08dc499f2131 is listed.
+2024-03-21 17:59:16.213 +03:00 [INF] User with id f1af8e10-5eba-4862-223d-08dc499f2131 is listed.
+2024-03-21 18:04:18.165 +03:00 [INF]  Username : soykan Email: soykansaydam1@gmail.com user added.
+2024-03-21 18:04:18.445 +03:00 [INF] Hotels listed.

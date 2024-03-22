@@ -1,0 +1,18 @@
+﻿@model santsg.project.Entities.Hotel;
+@{
+    ViewData["Title"] = "GetHotelByIdIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Get Hotel</h1>
+
+<form asp-action="GetHotelById" asp-controller="Hotel" method="get">
+
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Id)</span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Get</button>
+</form> 
