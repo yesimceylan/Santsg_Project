@@ -129,6 +129,7 @@ namespace santsg.project.Controllers
                 return View("SearchedHotelIndex");
             }
         }
+
     }
 
 }
