@@ -1,14 +1,29 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "SearchedHotelIndex";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Hotels</h1>
 
+@{
+    var hotels = ViewBag.Hotels;
+}
+
 <div>
-    @foreach (var hotelName in ViewBag.HotelName)
+    @foreach (var hotel in hotels)
     {
-        <p>@hotelName</p>
+        <div>
+            <a href="#" id="@hotel.Id">@hotel.HotelName</a>
+        </div>
+        <div>
+            <b>City :</b> @hotel.City
+        </div>
+        <div>
+            <b>Location :</b> @hotel.Location
+        </div>
+        <div>
+            <img src="@hotel.HotelImage" style="height:100px; width:100px;" />
+        </div>
+        <hr />
     }
 </div>

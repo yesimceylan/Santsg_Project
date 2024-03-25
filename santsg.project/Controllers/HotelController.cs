@@ -125,7 +125,7 @@ namespace santsg.project.Controllers
             }
             else
             {
-                ViewBag.HotelName = hotels.Select(x => x.HotelName);
+                ViewBag.Hotels = hotels;
                 return View("SearchedHotelIndex");
             }
         }

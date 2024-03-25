@@ -1,1 +1,2 @@
 2024-03-23 15:40:04.027 +03:00 [INF] Hotels listed.
+2024-03-23 17:32:38.707 +03:00 [INF] HotelName: Yeşim Hotel, HotelId: 15b7b874-4bfd-4921-25e4-08dc4b4616c9 added
