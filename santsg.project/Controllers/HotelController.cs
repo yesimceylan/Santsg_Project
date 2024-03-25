@@ -50,6 +50,7 @@ namespace santsg.project.Controllers
         {
             return View();
         }
+        
         [HttpGet]
         public async Task<IActionResult> GetHotelById(Guid id)
         {
@@ -129,6 +130,8 @@ namespace santsg.project.Controllers
                 return View("SearchedHotelIndex");
             }
         }
+        
+
 
     }
 

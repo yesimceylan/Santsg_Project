@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\yesim\\source\\repos\\santsg.project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\searchedhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\searchedhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\partial\\_test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\partial\\_test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\gethotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\gethotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\searchedhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\searchedhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\createhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\createhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,52 +38,80 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "santsg.project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "santsg.project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAHsAAAAOAAAA",
+              "DocumentIndex": 1,
+              "Title": "_Test.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\Partial\\_Test.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\Partial\\_Test.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\Partial\\_Test.cshtml",
+              "RelativeToolTip": "santsg.project\\Views\\Hotel\\Partial\\_Test.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T14:48:19.256Z"
+              "WhenOpened": "2024-03-25T14:37:59.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "GetHotelIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\GetHotelIndex.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\GetHotelIndex.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\GetHotelIndex.cshtml",
+              "RelativeToolTip": "santsg.project\\Views\\Hotel\\GetHotelIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:31:11.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Entities\\Hotel.cs",
               "RelativeDocumentMoniker": "santsg.project\\Entities\\Hotel.cs",
               "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Entities\\Hotel.cs",
               "RelativeToolTip": "santsg.project\\Entities\\Hotel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T13:15:48.529Z"
+              "WhenOpened": "2024-03-25T13:51:59.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "CreateHotelIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\CreateHotelIndex.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\CreateHotelIndex.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\CreateHotelIndex.cshtml",
+              "RelativeToolTip": "santsg.project\\Views\\Hotel\\CreateHotelIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T10:42:59.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SearchedHotelIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\SearchedHotelIndex.cshtml",
               "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\SearchedHotelIndex.cshtml",
               "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\SearchedHotelIndex.cshtml",
               "RelativeToolTip": "santsg.project\\Views\\Hotel\\SearchedHotelIndex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T13:09:54.44Z",
+              "WhenOpened": "2024-03-25T10:34:13.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HotelController.cs",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "santsg.project\\Controllers\\HotelController.cs",
               "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
               "RelativeToolTip": "santsg.project\\Controllers\\HotelController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAA6wEsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:54:15.923Z"
+              "WhenOpened": "2024-03-25T10:32:03.587Z",
+              "EditorCaption": ""
             }
           ]
         }

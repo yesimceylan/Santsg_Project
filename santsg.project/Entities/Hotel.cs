@@ -1,4 +1,5 @@
-﻿namespace santsg.project.Entities
+﻿
+namespace santsg.project.Entities
 {
     public class Hotel : BaseEntity
     {
