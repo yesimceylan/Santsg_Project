@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using santsg.project.Data;
 using santsg.project.Entities;
 using santsg.project.Models.Request;
@@ -18,25 +20,29 @@ namespace santsg.project.Controllers
         {
             _dbContext = dbContext;
         }
-
+        [AllowAnonymous]
         public IActionResult CreateHotelIndex()
         {
             return View();
         }
+        [AllowAnonymous]
         public IActionResult UpdateHotelIndex()
         {
             return View();
         }
+        [Authorize]
         public IActionResult DeleteHotelIndex()
         {
             return View();
         }
+        [AllowAnonymous]
         public IActionResult GetHotelIndex()
         {
             var hotels = _dbContext.Hotels.ToList();
             Log.Information("Hotels listed.");
             return View(hotels);
         }
+        
         public IActionResult GetHotelByIdIndex()
         {
             return View();
@@ -50,6 +56,11 @@ namespace santsg.project.Controllers
         {
             return View();
         }
+        public IActionResult HotelDetailsIndex(Guid id)
+        {
+            var hotel = _dbContext.Hotels.FirstOrDefault(x => x.Id == id); 
+            return View(hotel);
+        }
         
         [HttpGet]
         public async Task<IActionResult> GetHotelById(Guid id)
@@ -62,6 +73,7 @@ namespace santsg.project.Controllers
             Log.Information($"HotelId: {id} to be viewed.");
             return Ok(hotel);
         }
+
         [HttpPost]
         public async Task<IActionResult> AddHotel(AddHotelRequest hotel)
         {
@@ -80,6 +92,7 @@ namespace santsg.project.Controllers
             Log.Information($"HotelName: {newHotel.HotelName}, HotelId: {newHotel.Id} added");
             return RedirectToAction("Index", "Home");
         }
+
         [HttpPost]
         public async Task<IActionResult> DeleteHotel(Guid id)
         {
@@ -93,6 +106,7 @@ namespace santsg.project.Controllers
             Log.Information($"Hotel Name: {hotel.HotelName} id:{hotel.Id} is deleted.");
             return RedirectToAction("Index", "Home");
         }
+
         [HttpPost]
         public async Task<IActionResult> UpdateHotel(UpdateHotelRequest hotel)
         {
@@ -130,8 +144,6 @@ namespace santsg.project.Controllers
                 return View("SearchedHotelIndex");
             }
         }
-        
-
 
     }
 

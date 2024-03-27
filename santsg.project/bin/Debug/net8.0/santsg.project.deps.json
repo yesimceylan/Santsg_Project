@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "santsg.project/1.0.0": {
         "dependencies": {
+          "JsonWebToken": "1.9.4",
           "Microsoft.EntityFrameworkCore": "8.0.2",
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
@@ -55,6 +56,18 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.10.3.0",
             "fileVersion": "1.1000.323.51804"
+          }
+        }
+      },
+      "gfoidl.Analyzers/0.2.0": {},
+      "gfoidl.Base64/1.1.1": {
+        "dependencies": {
+          "gfoidl.Analyzers": "0.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/gfoidl.Base64.dll": {
+            "assemblyVersion": "1.1.1501.1",
+            "fileVersion": "1.1.1501.1"
           }
         }
       },
@@ -595,6 +608,17 @@
         "resources": {
           "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
+          }
+        }
+      },
+      "JsonWebToken/1.9.4": {
+        "dependencies": {
+          "gfoidl.Base64": "1.1.1"
+        },
+        "runtime": {
+          "lib/net5.0/JsonWebToken.dll": {
+            "assemblyVersion": "1.9.4.0",
+            "fileVersion": "1.9.4.0"
           }
         }
       },
@@ -2040,6 +2064,20 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
+    "gfoidl.Analyzers/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4rXIXpf3SGCv2RK2zRAm2XhW2XPT2wOPnTXlVn7XpgvqdVo7pIh6GegC9M3z+sCnbqwFSgTsV7VQ19HRCn77DA==",
+      "path": "gfoidl.analyzers/0.2.0",
+      "hashPath": "gfoidl.analyzers.0.2.0.nupkg.sha512"
+    },
+    "gfoidl.Base64/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k9qR9MjNpkBRIS3Jqg/ehz+RanM6BDmZ1antE08kCmjuqGLVgEVhcLcWuWdEp1ghCmiBUS7dFjueqKymspUIBg==",
+      "path": "gfoidl.base64/1.1.1",
+      "hashPath": "gfoidl.base64.1.1.1.nupkg.sha512"
+    },
     "Humanizer/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -2389,6 +2427,13 @@
       "sha512": "sha512-VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    },
+    "JsonWebToken/1.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ezoL2wJCtPuo6XXoaTC4SYvR8emiA4+1xw/6d+LlUkjwEfzehMHvExDgL06GAB1NmNWjJ8GlLbhR2u8delolxQ==",
+      "path": "jsonwebtoken/1.9.4",
+      "hashPath": "jsonwebtoken.1.9.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
       "type": "package",

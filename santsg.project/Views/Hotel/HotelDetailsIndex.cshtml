@@ -1,0 +1,19 @@
+﻿@model santsg.project.Entities.Hotel;
+@{
+    ViewData["Title"] = "HotelDetailsIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.HotelName</h1>
+
+<div>
+    <b>City:</b> @Model.City
+</div>
+
+<div>
+    <b>Location:</b> @Model.Location
+</div>
+
+<div>
+    <b>Star Rating:</b> @Model.StarRating
+</div>

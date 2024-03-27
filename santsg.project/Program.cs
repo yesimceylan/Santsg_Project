@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using santsg.project.Data;
 using santsg.project.Interfaceses;
@@ -20,6 +21,11 @@ builder.Services.AddDbContext<santsgProjectDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddSingleton<IMailService, MailService>();
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
+
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,6 +39,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication(); // Authentication middleware'ini ekleyin.
+app.UseAuthorization(); // Authorization middleware'ini ekleyin.
 
 app.MapControllerRoute(
     name: "default",

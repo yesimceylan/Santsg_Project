@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JKDLDJ8k1W4epQW4e7vIgnSbKMBON3fR4aljdS46Ol5Q7vq4EdJTbjAd4twq+9oZQy1abXLZ5C3vzHJqPxPwPQ==",
+  "dgSpecHash": "vW80yFWgvBlyJ0nzortJPnd6NxvFJUf+jU98aG7Mv6yZhgYU4vVd1dRs9nEOpJdE1nl3BCuuube4fdebLdla4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\santsg.project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yesim\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\yesim\\.nuget\\packages\\gfoidl.analyzers\\0.2.0\\gfoidl.analyzers.0.2.0.nupkg.sha512",
+    "C:\\Users\\yesim\\.nuget\\packages\\gfoidl.base64\\1.1.1\\gfoidl.base64.1.1.1.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -56,6 +58,7 @@
     "C:\\Users\\yesim\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\yesim\\.nuget\\packages\\jsonwebtoken\\1.9.4\\jsonwebtoken.1.9.4.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\yesim\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",

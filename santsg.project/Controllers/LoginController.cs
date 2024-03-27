@@ -16,7 +16,7 @@ namespace santsg.project.Controllers
         {
             return View();
         }
-
+         
         public IActionResult SignIn(string email, string password)
         {
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
