@@ -54,6 +54,41 @@ namespace santsg.project.Migrations
                     b.ToTable("Hotels");
                 });
 
+            modelBuilder.Entity("santsg.project.Entities.Reservation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("rezCreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("rezDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("rezDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("rezEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("rezEndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("rezName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("rezPerson")
+                        .HasColumnType("int");
+
+                    b.Property<string>("rezPhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Reservations");
+                });
+
             modelBuilder.Entity("santsg.project.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")

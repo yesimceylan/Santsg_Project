@@ -84,7 +84,9 @@ namespace santsg.project.Controllers
                 City = hotel.City,
                 Location = hotel.Location,
                 StarRating = hotel.StarRating,
-                HotelImage = hotel.HotelImage
+                HotelImage = hotel.HotelImage,
+                HotelImage2=hotel.HotelImage2,
+                HotelImage3=hotel.HotelImage3
             };
 
             await _dbContext.Hotels.AddAsync(newHotel);

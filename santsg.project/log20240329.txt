@@ -16,3 +16,11 @@
 2024-03-29 10:35:37.098 +03:00 [INF] Hotels listed.
 2024-03-29 10:36:11.442 +03:00 [INF] Hotels listed.
 2024-03-29 10:36:40.585 +03:00 [INF] Hotels listed.
+2024-03-29 10:47:20.745 +03:00 [INF] HotelName: Baia Lara, HotelId: 0a2327ec-4880-40d3-baa0-08dc4fc476da added
+2024-03-29 10:51:39.449 +03:00 [INF] HotelName: Baia Lara, HotelId: f0cbeedc-0322-442a-019d-08dc4fc51108 added
+2024-03-29 10:55:54.442 +03:00 [INF] HotelName: Arcanus Hotels Sorgun, HotelId: 09044d4c-bd62-4313-019e-08dc4fc51108 added
+2024-03-29 10:58:54.739 +03:00 [INF] HotelName: Aska Lara Resort & Spa, HotelId: 0e70da4c-39af-4345-019f-08dc4fc51108 added
+2024-03-29 17:27:40.541 +03:00 [INF] e0312206-f42d-4acd-7a3c-08dc4ffc63b4 new reservation registration.
+2024-03-29 17:45:22.946 +03:00 [INF] 99163c05-231d-4187-7a3d-08dc4ffc63b4 new reservation registration.
+2024-03-29 17:45:35.476 +03:00 [INF] b073e629-9348-498b-7a3e-08dc4ffc63b4 new reservation registration.
+2024-03-29 17:46:25.052 +03:00 [INF] d9409dc7-4143-43ee-7a3f-08dc4ffc63b4 new reservation registration.

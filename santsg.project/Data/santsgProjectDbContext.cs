@@ -11,5 +11,6 @@ namespace santsg.project.Data
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
     }
 }
