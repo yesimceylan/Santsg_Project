@@ -1,0 +1,10 @@
+2024-03-27 17:14:50.245 +03:00 [INF] Hotels listed.
+2024-03-27 17:15:36.966 +03:00 [INF] HotelName: Aquaworld Hotel, HotelId: 6812f7d7-5a5d-45cc-8e2d-08dc4e685fab added
+2024-03-27 17:15:40.188 +03:00 [INF] Hotels listed.
+2024-03-27 17:55:49.738 +03:00 [INF] Hotels listed.
+2024-03-27 17:55:55.506 +03:00 [INF] Hotels listed.
+2024-03-27 17:56:11.612 +03:00 [INF] Hotels listed.
+2024-03-27 17:56:35.552 +03:00 [INF] User with id eeb19a7c-6150-46de-a8ea-4b83b7b2557b is listed.
+2024-03-27 17:56:44.898 +03:00 [INF] Hotels listed.
+2024-03-27 17:57:03.544 +03:00 [INF] HotelName: Aquaworld Hotel, HotelId: caf21332-966b-4c36-b2a0-08dc4e6e29d1 added
+2024-03-27 18:17:10.347 +03:00 [INF] HotelName: Aquaworld Hotel, HotelId: fc84597e-24eb-478c-9cbb-08dc4e70f918 added

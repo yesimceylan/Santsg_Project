@@ -3,17 +3,28 @@
     ViewData["Title"] = "HotelDetailsIndex";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<h2>@Model.HotelName</h2>
 
-<h1>@Model.HotelName</h1>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<div>
-    <b>City:</b> @Model.City
-</div>
-
-<div>
-    <b>Location:</b> @Model.Location
-</div>
-
-<div>
-    <b>Star Rating:</b> @Model.StarRating
+<div class="w3-container">
+    <table class="w3-table w3-striped w3-border">
+        <tr>
+            <th>City</th>
+            <th>Location</th>
+            <th>StarRating</th>
+        </tr>
+        <tr>
+            <td>@Model.City</td>
+            <td>@Model.Location</td>
+            <td>@Model.StarRating</td>
+        </tr>
+    </table>
+    <br />
+    <img src="@Model.HotelImage" style="width:50%"><br />
+    <br />
+    <img src="@Model.HotelImage2" style="width:50%"><br />
+    <br />
+    <img src="@Model.HotelImage3" style="width:50%"><br />
+    <br />
 </div>

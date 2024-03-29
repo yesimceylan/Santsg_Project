@@ -1,0 +1,18 @@
+2024-03-29 10:13:33.001 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-03-29 10:13:39.743 +03:00 [INF] Hotels listed.
+2024-03-29 10:16:58.237 +03:00 [INF] Hotels listed.
+2024-03-29 10:17:45.115 +03:00 [INF] Hotels listed.
+2024-03-29 10:18:43.895 +03:00 [INF] Hotels listed.
+2024-03-29 10:18:58.416 +03:00 [INF] Hotels listed.
+2024-03-29 10:20:07.646 +03:00 [INF] Hotels listed.
+2024-03-29 10:22:08.490 +03:00 [INF] Hotels listed.
+2024-03-29 10:33:02.048 +03:00 [INF] Hotels listed.
+2024-03-29 10:33:42.147 +03:00 [INF] Hotels listed.
+2024-03-29 10:33:57.590 +03:00 [INF] HotelId: fc84597e-24eb-478c-9cbb-08dc4e70f918 to be viewed.
+2024-03-29 10:34:22.507 +03:00 [INF] Hotels listed.
+2024-03-29 10:35:03.548 +03:00 [INF] Hotels listed.
+2024-03-29 10:35:17.822 +03:00 [INF] Hotels listed.
+2024-03-29 10:35:25.220 +03:00 [INF] Hotels listed.
+2024-03-29 10:35:37.098 +03:00 [INF] Hotels listed.
+2024-03-29 10:36:11.442 +03:00 [INF] Hotels listed.
+2024-03-29 10:36:40.585 +03:00 [INF] Hotels listed.

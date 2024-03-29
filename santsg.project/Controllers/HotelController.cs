@@ -30,7 +30,7 @@ namespace santsg.project.Controllers
         {
             return View();
         }
-        [Authorize]
+        [AllowAnonymous]
         public IActionResult DeleteHotelIndex()
         {
             return View();
@@ -122,6 +122,8 @@ namespace santsg.project.Controllers
             updatedHotel.Location = hotel?.Location;
             updatedHotel.StarRating = hotel?.StarRating;
             updatedHotel.HotelImage = hotel?.HotelImage;
+            updatedHotel.HotelImage2= hotel?.HotelImage2;
+            updatedHotel.HotelImage3 = hotel?.HotelImage3;  
 
             _dbContext.Update<Hotel>(updatedHotel);
             await _dbContext.SaveChangesAsync();

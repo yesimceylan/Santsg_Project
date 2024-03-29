@@ -34,6 +34,12 @@ namespace santsg.project.Migrations
                     b.Property<string>("HotelImage")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("HotelImage2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HotelImage3")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("HotelName")
                         .HasColumnType("nvarchar(max)");
 

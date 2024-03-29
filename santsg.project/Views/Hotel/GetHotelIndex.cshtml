@@ -12,8 +12,16 @@
         {
             foreach (var hotels in Model)
             {
-                <div><b>@hotels?.HotelName</b></div><br />
-                <div><img src="@hotels?.HotelImage" style="height:100px; width:100px;" /></div><br />
+            <ul>
+                <div>
+                <li>
+                    <b>@hotels?.HotelName</b><br />
+                        @hotels?.City / @hotels?.Location
+                </li>
+                </div>
+                <br />
+            </ul>
+                
             }
         }
         else

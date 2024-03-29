@@ -12,8 +12,12 @@
     {
         foreach (var users in Model)
         {
-            <div><b>@users?.Username</b></div>
-            <br />
+            <ul>
+                 <li>
+                    <div><b>@users?.Username</b></div>
+                 </li>
+            </ul>
+            
         }
     }
     else
