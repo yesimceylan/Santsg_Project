@@ -24,3 +24,6 @@
 2024-03-29 17:45:22.946 +03:00 [INF] 99163c05-231d-4187-7a3d-08dc4ffc63b4 new reservation registration.
 2024-03-29 17:45:35.476 +03:00 [INF] b073e629-9348-498b-7a3e-08dc4ffc63b4 new reservation registration.
 2024-03-29 17:46:25.052 +03:00 [INF] d9409dc7-4143-43ee-7a3f-08dc4ffc63b4 new reservation registration.
+2024-03-29 23:52:09.140 +03:00 [INF] Hotels listed.
+2024-03-29 23:52:25.167 +03:00 [INF] Hotels listed.
+2024-03-29 23:53:43.594 +03:00 [INF] HotelId: 09044d4c-bd62-4313-019e-08dc4fc51108 to be viewed.

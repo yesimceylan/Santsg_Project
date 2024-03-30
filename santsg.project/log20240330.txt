@@ -1,0 +1,5 @@
+2024-03-30 16:45:59.407 +03:00 [INF] Hotels listed.
+2024-03-30 16:49:07.505 +03:00 [INF] Hotels listed.
+2024-03-30 16:53:34.135 +03:00 [INF] Hotels listed.
+2024-03-30 16:54:18.950 +03:00 [INF] Hotels listed.
+2024-03-30 17:03:08.753 +03:00 [INF] Hotels listed.
