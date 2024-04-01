@@ -115,8 +115,6 @@ namespace santsg.project.Controllers
             {
                 return NotFound(); 
             }
-
-
             updatedUser.Username = user?.Username;
             updatedUser.Password = user?.Password;
             updatedUser.Email = user?.Email;
@@ -128,8 +126,6 @@ namespace santsg.project.Controllers
 
             Log.Information($"{updatedUser} user updated.");
             return RedirectToAction("Index","Home");
-
-
         }
     }
 

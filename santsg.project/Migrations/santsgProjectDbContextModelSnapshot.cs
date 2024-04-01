@@ -60,6 +60,9 @@ namespace santsg.project.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("HotelId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("rezCreateDate")
                         .HasColumnType("datetime2");
 
@@ -70,21 +73,26 @@ namespace santsg.project.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("rezEmail")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("rezEndDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("rezName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("rezPerson")
                         .HasColumnType("int");
 
                     b.Property<string>("rezPhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("HotelId");
 
                     b.ToTable("Reservations");
                 });
@@ -116,6 +124,17 @@ namespace santsg.project.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("santsg.project.Entities.Reservation", b =>
+                {
+                    b.HasOne("santsg.project.Entities.Hotel", "Hotel")
+                        .WithMany()
+                        .HasForeignKey("HotelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Hotel");
                 });
 #pragma warning restore 612, 618
         }

@@ -58,7 +58,7 @@ namespace santsg.project.Controllers
         }
         public IActionResult HotelDetailsIndex(Guid id)
         {
-            var hotel = _dbContext.Hotels.FirstOrDefault(x => x.Id == id); 
+            var hotel = _dbContext.Hotels.FirstOrDefault(x => x.Id == id);
             return View(hotel);
         }
         

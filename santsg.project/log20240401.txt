@@ -1,0 +1,25 @@
+2024-04-01 10:22:39.723 +03:00 [INF] Hotels listed.
+2024-04-01 11:32:36.832 +03:00 [INF] Hotels listed.
+2024-04-01 11:36:10.884 +03:00 [INF] Hotels listed.
+2024-04-01 11:46:50.488 +03:00 [INF] Hotels listed.
+2024-04-01 14:55:50.076 +03:00 [INF] HotelName: Baia Lara, HotelId: af65e6d3-1263-4a21-365f-08dc5242acc2 added
+2024-04-01 14:56:32.240 +03:00 [INF] Hotel Name: Baia Lara id:af65e6d3-1263-4a21-365f-08dc5242acc2 is deleted.
+2024-04-01 14:59:40.950 +03:00 [INF] HotelName: Baia Lara, HotelId: 88ba5556-d16d-47d3-3660-08dc5242acc2 added
+2024-04-01 15:03:48.438 +03:00 [INF] HotelName: Ethno Hotel, HotelId: db7a1167-b030-4de4-3661-08dc5242acc2 added
+2024-04-01 15:04:21.064 +03:00 [INF] Hotel Name: Baia Lara id:88ba5556-d16d-47d3-3660-08dc5242acc2 is deleted.
+2024-04-01 15:04:32.495 +03:00 [INF] Hotel Name: Ethno Hotel id:db7a1167-b030-4de4-3661-08dc5242acc2 is deleted.
+2024-04-01 15:07:03.517 +03:00 [INF] HotelName: Miracle Resort Hotel, HotelId: 39302261-e987-477b-3662-08dc5242acc2 added
+2024-04-01 15:09:54.100 +03:00 [INF] HotelName: Aska Resort & Spa, HotelId: ca0626ca-3776-48ac-3663-08dc5242acc2 added
+2024-04-01 15:17:09.060 +03:00 [INF] HotelName: Selectum Colours Hotel, HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 added
+2024-04-01 15:17:27.170 +03:00 [INF] Hotels listed.
+2024-04-01 15:17:34.216 +03:00 [INF] Hotels listed.
+2024-04-01 15:20:34.041 +03:00 [INF] HotelName: Siu Collection, HotelId: fa31a098-0f20-4efc-3665-08dc5242acc2 added
+2024-04-01 15:23:00.646 +03:00 [INF] HotelName: Tasigo Hotel , HotelId: 4ade7ba6-5a06-469e-3666-08dc5242acc2 added
+2024-04-01 15:23:13.117 +03:00 [INF] Hotels listed.
+2024-04-01 15:24:52.974 +03:00 [INF] HotelName: Calista Luxury Resort, HotelId: e4b627c9-1656-4e7c-3667-08dc5242acc2 added
+2024-04-01 15:33:51.020 +03:00 [INF] Hotels listed.
+2024-04-01 15:34:44.633 +03:00 [INF]  Username : celal Email: celalkilnc@gmail.com user added.
+2024-04-01 15:34:44.672 +03:00 [INF] Hotels listed.
+2024-04-01 15:35:10.134 +03:00 [INF] Hotels listed.
+2024-04-01 15:35:47.984 +03:00 [INF] Hotels listed.
+2024-04-01 15:54:09.725 +03:00 [INF] 359ba179-e086-4ae0-62cb-08dc524ad2b7 new reservation registration.
