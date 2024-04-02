@@ -10,20 +10,18 @@ namespace santsg.project.Controllers
     public class ReservationController : Controller
     {
         private readonly santsgProjectDbContext _dbContext;
-        private Guid _id;
         public ReservationController(santsgProjectDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public IActionResult ReservationIndex(Guid HotelId)
+        public IActionResult CreateReservationIndex(Guid HotelId)
         {
-            _id = HotelId;
             return View();
         }
 
-        [HttpPost("api/{HotelId}")]
-        public async Task<IActionResult> CreateReservation([FromQuery]Guid  HotelId ,CreateReservationRequest res )
+
+        public async Task<IActionResult> CreateReservation(CreateReservationRequest res )
         {
             Reservation newres = new()
             {
@@ -34,7 +32,7 @@ namespace santsg.project.Controllers
                 rezDescription = res.rezDescription,
                 rezDate = res.rezDate,
                 rezEndDate = res.rezEndDate,
-                HotelId=_id
+                HotelId= res.HotelId
         };
             await _dbContext.Reservations.AddAsync(newres);
             await _dbContext.SaveChangesAsync();
