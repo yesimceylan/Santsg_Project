@@ -86,9 +86,9 @@ namespace santsg.project.Controllers
                 StarRating = hotel.StarRating,
                 HotelImage = hotel.HotelImage,
                 HotelImage2=hotel.HotelImage2,
-                HotelImage3=hotel.HotelImage3
+                HotelImage3=hotel.HotelImage3,
+                Price= hotel.Price
             };
-
             await _dbContext.Hotels.AddAsync(newHotel);
             await _dbContext.SaveChangesAsync();
             Log.Information($"HotelName: {newHotel.HotelName}, HotelId: {newHotel.Id} added");
@@ -125,7 +125,8 @@ namespace santsg.project.Controllers
             updatedHotel.StarRating = hotel?.StarRating;
             updatedHotel.HotelImage = hotel?.HotelImage;
             updatedHotel.HotelImage2= hotel?.HotelImage2;
-            updatedHotel.HotelImage3 = hotel?.HotelImage3;  
+            updatedHotel.HotelImage3 = hotel?.HotelImage3;
+            updatedHotel.Price = hotel?.Price;
 
             _dbContext.Update<Hotel>(updatedHotel);
             await _dbContext.SaveChangesAsync();

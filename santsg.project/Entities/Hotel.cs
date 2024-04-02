@@ -10,5 +10,6 @@ namespace santsg.project.Entities
         public string? HotelImage { get; set; }
         public string? HotelImage2 { get; set; }
         public string? HotelImage3 { get; set; }
+        public string? Price { get; set; }
     }
 }

@@ -1,3 +1,19 @@
 2024-04-02 11:19:50.356 +03:00 [INF] 7462fbeb-cb4d-4809-d03a-08dc52eda925 new reservation registration.
 2024-04-02 11:40:01.848 +03:00 [INF] 6737b9d6-b24b-4bba-e6e8-08dc52f07ca0 new reservation registration.
 2024-04-02 11:40:49.653 +03:00 [INF] fa69733d-3d41-460d-e6ea-08dc52f07ca0 new reservation registration.
+2024-04-02 15:03:17.248 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:07:40.941 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:08:40.518 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:08:46.608 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:09:46.245 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:11:15.668 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:12:01.258 +03:00 [INF] santsg.project.Entities.Hotel user updated.
+2024-04-02 15:35:22.612 +03:00 [INF] HotelName: Belconti Resort Hotel, HotelId: 56edc6bb-dcac-4421-4f92-08dc53115d53 added
+2024-04-02 15:44:51.074 +03:00 [INF] HotelName: Kirman Leodikya Resort, HotelId: 6fd814e5-b56c-4af6-4f93-08dc53115d53 added
+2024-04-02 15:46:51.391 +03:00 [INF] HotelName: Megasaray Club Hotel, HotelId: f17905be-ab39-43d0-4f94-08dc53115d53 added
+2024-04-02 15:48:25.690 +03:00 [INF] HotelName: Likya Adrasan Otel, HotelId: 4afb4a72-394d-4b92-4f95-08dc53115d53 added
+2024-04-02 15:52:53.132 +03:00 [INF] HotelName: Barbarossa Boutique Hotel, HotelId: 8805c06a-f509-49b2-4f96-08dc53115d53 added
+2024-04-02 15:58:33.957 +03:00 [INF] HotelName: Letstay Panorama Suites, HotelId: f2d9cc87-b02e-4e8e-4f97-08dc53115d53 added
+2024-04-02 16:01:24.441 +03:00 [INF] HotelName: My Home Hotel, HotelId: 2cc28bfe-f413-4d6e-4f98-08dc53115d53 added
+2024-04-02 16:04:31.570 +03:00 [INF] HotelName: RuinAdalia Hotel, HotelId: 93eea2fb-3f16-42d2-4f99-08dc53115d53 added
+2024-04-02 16:05:10.255 +03:00 [INF] d3711999-fa5d-4493-5b75-08dc531586e1 new reservation registration.
