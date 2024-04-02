@@ -4,32 +4,47 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h2>@Model.HotelName</h2>
-
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="w3-container">
-    <table class="w3-table w3-striped w3-border">
-        <tr>
-            <th>City</th>
-            <th>Location</th>
-            <th>StarRating</th>
-        </tr>
-        <tr>
-            <td>@Model.City</td>
-            <td>@Model.Location</td>
-            <td>@Model.StarRating</td>
-        </tr>
-    </table>
+@* <style>
+    body {
+        background-image: url('https://e1.pxfuel.com/desktop-wallpaper/231/666/desktop-wallpaper-white-backgrounds-plain-https-www-pop-white-background-white.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style> *@
+
+<head>
+    <body>
+        <div class="w3-container">
+            <div class="w3-display-container mySlides">
+                <img src="@Model.HotelImage" style="width:70%;margin-bottom:-6px">
+                <div class="w3-display-bottomleft w3-container w3-black">
+                    <p>Living Room</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-section">
+            <div class="w3-col s3" style="margin-right: -100px;">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="@Model.HotelImage" style="width:200px; height:130px;cursor:pointer" onclick="currentDiv(1)" title="Living room">
+            </div>
+            <div class="w3-col s3" style="margin-right: -100px;">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="@Model.HotelImage2" style="width:200px; height:130px;cursor:pointer" onclick="currentDiv(2)" title="Dining room">
+            </div>
+            <div class="w3-col s3" style="margin-right: -100px;">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="@Model.HotelImage3" style="width:200px; height:130px;cursor:pointer" onclick="currentDiv(3)" title="Bedroom">
+            </div>
+            <div class="w3-col s3">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="@Model.HotelImage2" style="width:200px; height:130px;cursor:pointer" onclick="currentDiv(4)" title="Second Living Room">
+            </div>
+        </div>
+        <button onclick="window.location.href='@Url.Action("CreateReservationIndex", "Reservation",new{HotelId=@Model.Id})'" class="btn btn-primary">Reservation</button>
+    </body>
     <br />
-    <img src="@Model.HotelImage" style="width:50%"><br />
     <br />
-    <img src="@Model.HotelImage2" style="width:50%"><br />
-    <br />
-    <img src="@Model.HotelImage3" style="width:50%"><br />
-    <br />
-    <button onclick="window.location.href='@Url.Action("CreateReservationIndex", "Reservation",new{HotelId=@Model.Id})'" class="btn btn-primary">Reservation</button>
-    <br />
-    <br />
-    <br />
-    <br />
-</div> 
+</head>
+<br />
+<br />
