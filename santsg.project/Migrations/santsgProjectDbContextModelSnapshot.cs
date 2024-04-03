@@ -28,6 +28,12 @@ namespace santsg.project.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Bathrooms")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Bedrooms")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
@@ -40,10 +46,16 @@ namespace santsg.project.Migrations
                     b.Property<string>("HotelImage3")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("HotelImage4")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("HotelName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Location")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PeopleCount")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Price")

@@ -42,7 +42,7 @@ namespace santsg.project.Controllers
             Log.Information("Hotels listed.");
             return View(hotels);
         }
-        
+
         public IActionResult GetHotelByIdIndex()
         {
             return View();
@@ -61,7 +61,7 @@ namespace santsg.project.Controllers
             var hotel = _dbContext.Hotels.FirstOrDefault(x => x.Id == id);
             return View(hotel);
         }
-        
+
         [HttpGet]
         public async Task<IActionResult> GetHotelById(Guid id)
         {
@@ -79,15 +79,19 @@ namespace santsg.project.Controllers
         {
             Hotel newHotel = new()
             {
-                
+
                 HotelName = hotel.HotelName,
                 City = hotel.City,
                 Location = hotel.Location,
                 StarRating = hotel.StarRating,
                 HotelImage = hotel.HotelImage,
-                HotelImage2=hotel.HotelImage2,
-                HotelImage3=hotel.HotelImage3,
-                Price= hotel.Price
+                HotelImage2 = hotel.HotelImage2,
+                HotelImage3 = hotel.HotelImage3,
+                HotelImage4 = hotel.HotelImage4,
+                Price = hotel.Price,
+                PeopleCount = hotel.PeopleCount,
+                Bathrooms = hotel.Bathrooms,
+                Bedrooms = hotel.Bedrooms
             };
             await _dbContext.Hotels.AddAsync(newHotel);
             await _dbContext.SaveChangesAsync();
@@ -98,7 +102,7 @@ namespace santsg.project.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteHotel(Guid id)
         {
-            var hotel=await _dbContext.Hotels.FindAsync(id);
+            var hotel = await _dbContext.Hotels.FindAsync(id);
             if (hotel == null)
             {
                 NotFound();
@@ -124,9 +128,13 @@ namespace santsg.project.Controllers
             updatedHotel.Location = hotel?.Location;
             updatedHotel.StarRating = hotel?.StarRating;
             updatedHotel.HotelImage = hotel?.HotelImage;
-            updatedHotel.HotelImage2= hotel?.HotelImage2;
+            updatedHotel.HotelImage2 = hotel?.HotelImage2;
             updatedHotel.HotelImage3 = hotel?.HotelImage3;
+            updatedHotel.HotelImage4 = hotel?.HotelImage4;
             updatedHotel.Price = hotel?.Price;
+            updatedHotel.PeopleCount = hotel?.PeopleCount;
+            updatedHotel.Bathrooms = hotel?.Bathrooms;
+            updatedHotel.Bedrooms = hotel?.Bedrooms;
 
             _dbContext.Update<Hotel>(updatedHotel);
             await _dbContext.SaveChangesAsync();
