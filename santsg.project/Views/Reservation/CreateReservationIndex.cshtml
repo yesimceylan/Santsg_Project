@@ -70,7 +70,6 @@
     <p>Please make sure to fill in the information correctly and completely!</p>
 
     <div class="container">
-        @* <a asp-action="CreateReservationIndex" asp-route-HotelId="@Model.HotelId">Make Reservation</a> *@
         <form action="CreateReservation">
             <div class="row">
                 <div class="col-25">
@@ -153,10 +152,11 @@
 
             <br>
             <div class="row">
-                <input type="submit"  value="Create">
+                <input type="submit" value="Create" onclick="handleCreateButtonClick()">
             </div>
         </form>
     </div>
+    
 
-</body>
-</html>
+
+    </body>

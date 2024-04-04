@@ -37,7 +37,7 @@ namespace santsg.project.Controllers
             await _dbContext.Reservations.AddAsync(newres);
             await _dbContext.SaveChangesAsync();
             Log.Information($"{newres.Id} new reservation registration.");
-            return Ok("Your reservation has been completed successfully.");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

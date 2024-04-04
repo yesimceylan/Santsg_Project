@@ -263,3 +263,4 @@ C:\Users\yesim\source\repos\santsg.project\santsg.project\obj\Debug\net8.0\refin
 C:\Users\yesim\source\repos\santsg.project\santsg.project\obj\Debug\net8.0\santsg.project.pdb
 C:\Users\yesim\source\repos\santsg.project\santsg.project\obj\Debug\net8.0\santsg.project.genruntimeconfig.cache
 C:\Users\yesim\source\repos\santsg.project\santsg.project\obj\Debug\net8.0\ref\santsg.project.dll
+C:\Users\yesim\source\repos\santsg.project\santsg.project\bin\Debug\net8.0\SweetAlert2.dll
