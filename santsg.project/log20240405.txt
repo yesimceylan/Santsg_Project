@@ -44,3 +44,67 @@
 2024-04-05 15:14:00.244 +03:00 [INF] Hotels listed.
 2024-04-05 15:14:02.449 +03:00 [INF] Hotels listed.
 2024-04-05 15:15:34.950 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:18:17.549 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:18:39.307 +03:00 [INF] Hotels listed.
+2024-04-05 15:18:45.849 +03:00 [INF] Hotels listed.
+2024-04-05 15:18:49.699 +03:00 [INF] User with id 00000000-0000-0000-0000-000000000000 not found.
+2024-04-05 15:25:54.353 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:26:45.223 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:29.236 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:32.782 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:34.622 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:34.959 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:35.112 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:35.426 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:35.562 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:35.913 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:36.067 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:27:39.083 +03:00 [INF] User with id 00000000-0000-0000-0000-000000000000 not found.
+2024-04-05 15:29:43.203 +03:00 [INF] Hotels listed.
+2024-04-05 15:29:46.551 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:29:51.385 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:29:51.934 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:29:52.086 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:29:52.231 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:30:06.016 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:30:19.872 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:31:44.344 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:31:48.378 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a62 not found.
+2024-04-05 15:32:53.386 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a62 not found.
+2024-04-05 15:33:29.338 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a62 not found.
+2024-04-05 15:33:39.548 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:33:41.499 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:33:45.513 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a65 not found.
+2024-04-05 15:33:55.280 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a65 not found.
+2024-04-05 15:34:03.061 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:34:04.049 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:34:11.950 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:34:15.630 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:34:17.266 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:36:28.015 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:36:29.639 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:36:39.785 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:36:41.350 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:36:41.498 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:36:41.647 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:37:22.136 +03:00 [INF] User with id f39f2fca-07a9-4bb7-7729-08dc54e53a63 is listed.
+2024-04-05 15:38:54.207 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-05 15:38:57.795 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0b not found.
+2024-04-05 15:39:02.131 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-05 15:39:02.280 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-05 15:39:02.468 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-05 15:39:03.356 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-05 15:40:25.431 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 15:40:57.814 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 15:41:04.788 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 15:41:13.025 +03:00 [INF] User with id 39302261-e987-477b-3662-08dc5242acc2 not found.
+2024-04-05 15:41:14.381 +03:00 [INF] User with id 39302261-e987-477b-3662-08dc5242acc2 not found.
+2024-04-05 15:41:35.214 +03:00 [INF] User with id 39302261-e987-477b-3662-08dc5242acc2 not found.
+2024-04-05 15:41:43.798 +03:00 [INF] User with id 39302261-e987-477b-3662-08dc5242acc2 not found.
+2024-04-05 15:42:07.292 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:42:13.493 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0b not found.
+2024-04-05 15:42:25.973 +03:00 [INF] HotelId: fa31a098-0f20-4efc-3665-08dc5242acc2 to be viewed.
+2024-04-05 15:42:57.334 +03:00 [INF] HotelId: fa31a098-0f20-4efc-3665-08dc5242acc2 to be viewed.
+2024-04-05 15:43:39.013 +03:00 [INF] HotelId: fa31a098-0f20-4efc-3665-08dc5242acc2 to be viewed.
+2024-04-05 15:44:06.039 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
+2024-04-05 15:44:20.867 +03:00 [INF] User with id 00000000-0000-0000-0000-000000000000 not found.

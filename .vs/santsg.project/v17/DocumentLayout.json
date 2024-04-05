@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yesim\\source\\repos\\santsg.project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\gethotelbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\gethotelbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\searchhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\searchhotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\user\\getuserbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\user\\getuserbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\hotel\\gethotelbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\hotel\\gethotelbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchHotelIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\SearchHotelIndex.cshtml",
-              "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\SearchHotelIndex.cshtml",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\SearchHotelIndex.cshtml",
-              "RelativeToolTip": "santsg.project\\Views\\Hotel\\SearchHotelIndex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T12:16:08.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HotelController.cs",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
-              "RelativeDocumentMoniker": "santsg.project\\Controllers\\HotelController.cs",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
-              "RelativeToolTip": "santsg.project\\Controllers\\HotelController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAADwv0YAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:26:42.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GetHotelByIdIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
               "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
               "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
               "RelativeToolTip": "santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAAAhAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T11:04:00.718Z",
+              "WhenOpened": "2024-04-05T12:28:45.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "santsg.project\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "santsg.project\\Controllers\\HotelController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowEgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:28:27.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetUserByIdIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
+              "RelativeToolTip": "santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T12:22:25.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "santsg.project\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\UserController.cs",
+              "RelativeToolTip": "santsg.project\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:19:27.693Z",
               "EditorCaption": ""
             }
           ]

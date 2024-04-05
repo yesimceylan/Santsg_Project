@@ -56,10 +56,15 @@ namespace santsg.project.Controllers
             if (user == null)
             {
                 Log.Information($"User with id {id} not found.");
-                return NotFound(); 
+                TempData["GetUserFailed"] = "No user with this id was found!";
+                return View("GetUserByIdIndex");
             }
             Log.Information($"User with id {id} is listed.");
-            return Ok(user);
+            TempData["Username"] = ($"Name: {user.Username} ");
+            TempData["Email"] = ($"Email: {user.Email} ");
+            TempData["PhoneNumber"] = ($"PhoneNumber: {user.PhoneNumber} ");
+            TempData["Age"] = ($"Age: {user.Age} ");
+            return View("GetUserByIdIndex");
         }
 
         [HttpPost]

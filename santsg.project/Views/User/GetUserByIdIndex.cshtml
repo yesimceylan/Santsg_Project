@@ -17,3 +17,33 @@
     <br />
     <button type="submit" class="btn btn-primary">Get</button>
 </form> 
+@if (TempData["Username"] != null)
+{
+    <style>
+        .info {
+            margin: 0;
+        }
+    </style>
+    <div class="text-center" style="margin-top: 20px;">
+        <div class="alert alert-danger" style="display:flex; flex-direction:column;" role="alert">
+            <p class="info">
+                @TempData["Username"]
+            </p>
+            <p class="info">
+                @TempData["Email"]
+            </p>
+            <p class="info">
+                @TempData["PhoneNumber"]
+            </p>
+            <p class="info">
+                @TempData["Age"]
+            </p>
+        </div>
+    </div>
+}
+else if (TempData["GetUserFailed"] != null)
+{
+    <p class="text-center">
+        <div style="margin-top: 20px;" class="alert alert-danger" role="alert">@TempData["GetUserFailed"]</div>
+    </p>
+}
