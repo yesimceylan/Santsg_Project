@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\yesim\\source\\repos\\santsg.project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\user\\getuserbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\user\\getuserbyidindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "IMailService.cs",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Services\\IMailService.cs",
+              "RelativeDocumentMoniker": "santsg.project\\Services\\IMailService.cs",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Services\\IMailService.cs",
+              "RelativeToolTip": "santsg.project\\Services\\IMailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:15:39.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GetHotelByIdIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
               "RelativeDocumentMoniker": "santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "santsg.project\\Views\\Hotel\\GetHotelByIdIndex.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T12:28:45.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T12:28:45.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HotelController.cs",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "santsg.project\\Controllers\\HotelController.cs",
@@ -51,12 +67,11 @@
               "RelativeToolTip": "santsg.project\\Controllers\\HotelController.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowEgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T12:28:27.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T12:28:27.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GetUserByIdIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
               "RelativeDocumentMoniker": "santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
@@ -64,12 +79,11 @@
               "RelativeToolTip": "santsg.project\\Views\\User\\GetUserByIdIndex.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T12:22:25.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T12:22:25.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "santsg.project\\Controllers\\UserController.cs",
@@ -77,8 +91,7 @@
               "RelativeToolTip": "santsg.project\\Controllers\\UserController.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAkwCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T12:19:27.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T12:19:27.693Z"
             }
           ]
         }

@@ -108,3 +108,26 @@
 2024-04-05 15:43:39.013 +03:00 [INF] HotelId: fa31a098-0f20-4efc-3665-08dc5242acc2 to be viewed.
 2024-04-05 15:44:06.039 +03:00 [INF] User with id 7da6f329-8427-498b-ce18-08dc54a3ee0a is listed.
 2024-04-05 15:44:20.867 +03:00 [INF] User with id 00000000-0000-0000-0000-000000000000 not found.
+2024-04-05 15:52:07.271 +03:00 [INF] Hotels listed.
+2024-04-05 15:52:30.561 +03:00 [INF] Hotels listed.
+2024-04-05 15:52:52.336 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:55:53.885 +03:00 [INF] 4c6b129c-1c05-4bd4-aba9-08dc556fba78 new reservation registration.
+2024-04-05 15:56:39.458 +03:00 [INF] Hotels listed.
+2024-04-05 15:56:45.618 +03:00 [INF] User with id f1af8e10-5eba-4862-223d-08dc499f2131 not found.
+2024-04-05 15:57:11.352 +03:00 [INF] Hotels listed.
+2024-04-05 15:57:26.508 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:57:46.476 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 16:01:26.007 +03:00 [INF] e52e9f2e-0f09-4c4b-abaa-08dc556fba78 new reservation registration.
+2024-04-05 16:01:30.938 +03:00 [INF] Hotels listed.
+2024-04-05 16:01:37.526 +03:00 [INF] Hotels listed.
+2024-04-05 16:02:10.816 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 16:03:25.582 +03:00 [INF] Hotels listed.
+2024-04-05 16:04:18.381 +03:00 [INF] Hotels listed.
+2024-04-05 16:04:34.415 +03:00 [INF] Hotels listed.
+2024-04-05 16:04:37.157 +03:00 [INF] Hotels listed.
+2024-04-05 16:06:18.609 +03:00 [INF] Hotels listed.
+2024-04-05 16:09:16.857 +03:00 [INF] Hotels listed.
+2024-04-05 16:17:17.290 +03:00 [INF] User not found during deletion!
+2024-04-05 16:17:57.336 +03:00 [INF] f39f2fca-07a9-4bb7-7729-08dc54e53a63 user silindi.
+2024-04-05 16:32:01.089 +03:00 [INF] Hotels listed.
+2024-04-05 16:32:30.862 +03:00 [INF] Hotels listed.
