@@ -31,6 +31,10 @@ namespace santsg.project.Controllers
             return RedirectToAction("Index", "Home");
 
         }
+        public async Task<IActionResult> SignOut()
+        {
+            return RedirectToAction("Index", "Login");
+        }
     } 
 }
 

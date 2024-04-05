@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using santsg.project.Data;
 using santsg.project.Entities;
 using santsg.project.Models.Request;
@@ -23,6 +24,13 @@ namespace santsg.project.Controllers
 
         public async Task<IActionResult> CreateReservation(CreateReservationRequest res )
         {
+            //if (string.IsNullOrEmpty( res.rezName)|| string.IsNullOrEmpty(res.rezPhoneNumber) || string.IsNullOrEmpty(res.rezEmail) ||
+            //    DateTime.MinValue == res.rezDate || DateTime.MinValue == res.rezEndDate)
+            //{
+
+            //}
+
+
             Reservation newres = new()
             {
                 rezName = res.rezName,

@@ -74,3 +74,20 @@
 2024-04-04 16:58:34.894 +03:00 [INF] 66d14d28-eda3-4db7-7673-08dc54af51bc new reservation registration.
 2024-04-04 17:03:57.917 +03:00 [INF] dae54caa-6829-498d-63a6-08dc54b01245 new reservation registration.
 2024-04-04 17:06:45.696 +03:00 [INF] 2116b156-633c-416d-7f78-08dc54b07648 new reservation registration.
+2024-04-04 20:05:10.882 +03:00 [INF] 9087cb92-f006-49aa-d67a-08dc54c96318 new reservation registration.
+2024-04-04 20:14:00.514 +03:00 [INF] 1cf4f00e-adc0-4557-b8a2-08dc54ca9eb8 new reservation registration.
+2024-04-04 20:22:46.601 +03:00 [INF] bd108fda-944c-4f5c-51b6-08dc54cbd84b new reservation registration.
+2024-04-04 20:26:32.165 +03:00 [INF] 9c09b87e-b720-488e-51b7-08dc54cbd84b new reservation registration.
+2024-04-04 20:28:32.496 +03:00 [INF] 1e0ed43c-02cd-42cf-51b8-08dc54cbd84b new reservation registration.
+2024-04-04 20:29:20.838 +03:00 [INF] Hotels listed.
+2024-04-04 21:19:05.220 +03:00 [INF] Hotels listed.
+2024-04-04 21:20:06.615 +03:00 [INF] Hotels listed.
+2024-04-04 21:21:54.109 +03:00 [INF] f61319b7-81bd-426a-89ec-08dc54d41ac7 new reservation registration.
+2024-04-04 21:25:40.579 +03:00 [INF] Hotels listed.
+2024-04-04 21:25:47.094 +03:00 [INF] User with id 2f6f29ec-0675-4a83-223c-08dc499f2131 not found.
+2024-04-04 21:26:15.747 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-04 23:22:59.845 +03:00 [INF] 966ae77d-f04e-42f1-3c9a-08dc54e5057b new reservation registration.
+2024-04-04 23:23:15.404 +03:00 [INF] Hotels listed.
+2024-04-04 23:23:48.243 +03:00 [INF] Hotels listed.
+2024-04-04 23:24:31.528 +03:00 [INF]  Username : Aleyna Ergül Email: aleynaergul7@gmail.com user added.
+2024-04-04 23:24:31.552 +03:00 [INF] Hotels listed.

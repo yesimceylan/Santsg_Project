@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace santsg.project.Entities
 {
     public class Reservation : BaseEntity
     {
+     
         public string? rezName { get; set; }
         public string? rezPhoneNumber { get; set; }
         public string? rezEmail { get; set; }

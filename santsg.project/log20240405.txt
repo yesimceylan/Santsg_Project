@@ -1,0 +1,5 @@
+2024-04-05 10:02:23.064 +03:00 [INF] Hotels listed.
+2024-04-05 10:04:07.645 +03:00 [INF] User with id 1cf4f00e-adc0-4557-b8a2-08dc54ca9eb8 not found.
+2024-04-05 10:04:29.083 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
+2024-04-05 10:04:38.881 +03:00 [INF] Hotels listed.
+2024-04-05 10:04:52.564 +03:00 [INF] HotelId: ca0626ca-3776-48ac-3663-08dc5242acc2 to be viewed.
