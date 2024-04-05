@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -68,10 +68,16 @@ namespace santsg.project.Controllers
             var hotel = await _dbContext.Hotels.FindAsync(id);
             if (hotel == null)
             {
-                return NotFound();
+                TempData["GetHotelFailed"] = "No hotel with this id was found!";
+                return View("GetHotelByIdIndex");
             }
             Log.Information($"HotelId: {id} to be viewed.");
-            return Ok(hotel);
+            TempData["Hotel"] = ($"Name: {hotel.HotelName} ");
+            TempData["City"] = ($"City: {hotel.City} ");
+            TempData["Location"] = ($"Location: {hotel.Location} ");
+            TempData["StarRating"] = ($"StarRating: {hotel.StarRating} ");
+            TempData["Price"] = ($"Price: {hotel.Price} ");
+            return View("GetHotelByIdIndex");
         }
 
         [HttpPost]
@@ -149,7 +155,8 @@ namespace santsg.project.Controllers
             var hotels = await _dbContext.Hotels.Where(x => x.City.Contains(city)).ToListAsync();
             if (hotels.Count == 0)
             {
-                return NotFound("No results found for your search.");
+                TempData["ReservationFailed"] = "City ​​not found! Please enter or change a different city.";
+                return View("SearchHotelIndex");
             }
             else
             {

@@ -3,3 +3,44 @@
 2024-04-05 10:04:29.083 +03:00 [INF] User with id 540d3771-c617-4a3c-ce17-08dc54a3ee0a is listed.
 2024-04-05 10:04:38.881 +03:00 [INF] Hotels listed.
 2024-04-05 10:04:52.564 +03:00 [INF] HotelId: ca0626ca-3776-48ac-3663-08dc5242acc2 to be viewed.
+2024-04-05 10:50:37.141 +03:00 [INF] 98ed627a-f221-4f63-11dc-08dc554514c0 new reservation registration.
+2024-04-05 11:06:56.522 +03:00 [INF] 2fc0bb20-2a93-4c92-11dd-08dc554514c0 new reservation registration.
+2024-04-05 11:27:18.685 +03:00 [INF] 75ba42d5-b575-481e-11de-08dc554514c0 new reservation registration.
+2024-04-05 14:01:41.273 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:01:44.823 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:02:45.134 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:04:40.402 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:04:58.788 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:09:23.323 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:09:25.414 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:09:26.954 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:09:44.831 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:11:57.451 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:12:19.733 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:12:51.549 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:14:35.873 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:15:18.031 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:22:29.763 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:31:40.274 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:33:10.172 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:34:58.626 +03:00 [INF] HotelId: 39302261-e987-477b-3662-08dc5242acc2 to be viewed.
+2024-04-05 14:35:55.242 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:36:58.674 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:38:07.529 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:38:07.596 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:39:12.872 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:39:44.868 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:40:25.594 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:40:40.838 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:40:48.811 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:41:09.276 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:42:54.351 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:44:55.446 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 14:45:42.355 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:03:23.032 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:04:52.683 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:11:37.729 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:12:35.415 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
+2024-04-05 15:14:00.244 +03:00 [INF] Hotels listed.
+2024-04-05 15:14:02.449 +03:00 [INF] Hotels listed.
+2024-04-05 15:15:34.950 +03:00 [INF] HotelId: 85ff45d5-998c-45d5-3664-08dc5242acc2 to be viewed.
