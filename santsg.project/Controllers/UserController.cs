@@ -24,11 +24,6 @@ namespace santsg.project.Controllers
             _dbContext = dbContext;
             _mailService = mailService;
         }
-
-        public IActionResult CreateUserIndex()
-        {
-            return View();
-        }
         public IActionResult UpdateUserIndex()
         {
             return View();
@@ -65,32 +60,6 @@ namespace santsg.project.Controllers
             TempData["PhoneNumber"] = ($"PhoneNumber: {user.PhoneNumber} ");
             TempData["Age"] = ($"Age: {user.Age} ");
             return View("GetUserByIdIndex");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> AddUser(AddUserRequestModel User)
-        {
-            User newUser = new()
-            {
-                Username = User.Username,
-                Password = User.Password,
-                Email = User.Email,
-                PhoneNumber = User.PhoneNumber,
-                Age = User.Age
-
-            };
-            await _dbContext.Users.AddAsync(newUser);
-            await _dbContext.SaveChangesAsync();
-
-
-            string? toMail = newUser.Email;
-            string subject = "Information!";
-            string body = "Your registration has been successfully created.";
-            
-            await _mailService.SendEmailAsync(toMail, subject, body);
-            Log.Information($" Username : {newUser.Username} Email: {newUser.Email} user added.");
-            return RedirectToAction("GetUserIndex", "User");
-
         }
 
         [HttpPost]
