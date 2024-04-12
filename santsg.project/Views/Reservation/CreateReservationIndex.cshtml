@@ -188,5 +188,17 @@
         }
     </script>
 
+    <script>
+        var requiredInputs = document.querySelectorAll('input[required]');
+        requiredInputs.forEach(function (input) {
+            input.oninvalid = function (event) {
+                event.target.setCustomValidity('Please fill in this field!');
+            }
+            input.oninput = function (event) {
+                event.target.setCustomValidity('');
+            }
+        });
+    </script>
+
 
     </body>

@@ -24,11 +24,6 @@ namespace santsg.project.Controllers
 
         public async Task<IActionResult> CreateReservation(CreateReservationRequest res )
         {
-            //if (string.IsNullOrEmpty( res.rezName)|| string.IsNullOrEmpty(res.rezPhoneNumber) || string.IsNullOrEmpty(res.rezEmail) ||
-            //    DateTime.MinValue == res.rezDate || DateTime.MinValue == res.rezEndDate)
-            //{
-
-            //}
 
 
             Reservation newres = new()

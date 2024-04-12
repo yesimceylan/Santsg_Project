@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yesim\\source\\repos\\santsg.project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\reservation\\createreservationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\reservation\\createreservationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\createlogin\\createuserloginindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\createlogin\\createuserloginindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateUserLoginIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
               "RelativeDocumentMoniker": "santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
               "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
               "RelativeToolTip": "santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEkAAAA2AAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T13:00:41.488Z",
+              "WhenOpened": "2024-04-12T14:39:26.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "santsg.project\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "santsg.project\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAEYAAAAHAAAA",
+              "DocumentIndex": 0,
+              "Title": "CreateReservationIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml*",
+              "RelativeToolTip": "santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml*",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T12:49:10Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "santsg.project\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "santsg.project\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T12:47:46.09Z",
+              "WhenOpened": "2024-04-12T14:37:00.859Z",
               "EditorCaption": ""
             }
           ]

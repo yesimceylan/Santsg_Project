@@ -47,27 +47,27 @@
 
     <div class="form-group">
         <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
+        <input asp-for="Username" required class="form-control" />
         <span class="text-danger">@Html.ValidationMessageFor(m => m.Username)</span>
     </div>
     <div class="form-group">
         <label asp-for="Password"></label>
-        <input type="password" asp-for="Password" class="form-control" />
+        <input type="password" asp-for="Password" required class="form-control" />
         <span class="text-danger">@Html.ValidationMessageFor(m => m.Password)</span>
     </div>
     <div class="form-group">
         <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
+        <input asp-for="Email" required class="form-control" />
         <span class="text-danger">@Html.ValidationMessageFor(m => m.Email)</span>
     </div>
     <div class="form-group">
         <label asp-for="PhoneNumber"></label>
-        <input asp-for="PhoneNumber" class="form-control" />
+        <input asp-for="PhoneNumber" required class="form-control" />
         <span class="text-danger">@Html.ValidationMessageFor(m => m.PhoneNumber)</span>
     </div>
     <div class="form-group">
         <label asp-for="Age"></label>
-        <input asp-for="Age" class="form-control" />
+        <input asp-for="Age" required class="form-control" />
         <span class="text-danger">@Html.ValidationMessageFor(m => m.Age)</span>
     </div>
     <br />
@@ -78,5 +78,17 @@
     <!-- Bootstrap JS ve jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script>
+        var requiredInputs = document.querySelectorAll('input[required]');
+        requiredInputs.forEach(function (input) {
+            input.oninvalid = function (event) {
+                event.target.setCustomValidity('Please fill in this field!');
+            }
+            input.oninput = function (event) {
+                event.target.setCustomValidity('');
+            }
+        });
+    </script>
 
 </body>
