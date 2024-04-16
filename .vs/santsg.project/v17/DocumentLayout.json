@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\yesim\\source\\repos\\santsg.project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\reservation\\createreservationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\reservation\\createreservationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\createlogin\\createuserloginindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\createlogin\\createuserloginindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\user\\updateuserindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\user\\updateuserindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|c:\\users\\yesim\\source\\repos\\santsg.project\\santsg.project\\views\\user\\deleteuserindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188F72F-DEDC-4E0A-AE1C-096A64D9174A}|santsg.project\\santsg.project.csproj|solutionrelative:santsg.project\\views\\user\\deleteuserindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateUserLoginIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
-              "RelativeDocumentMoniker": "santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
-              "RelativeToolTip": "santsg.project\\Views\\CreateLogin\\CreateUserLoginIndex.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAACsAAAAhAAAA",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "santsg.project\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T14:39:26.786Z",
+              "WhenOpened": "2024-04-16T15:02:29.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateReservationIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml",
-              "RelativeDocumentMoniker": "santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml",
-              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml*",
-              "RelativeToolTip": "santsg.project\\Views\\Reservation\\CreateReservationIndex.cshtml*",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMUAAAA2AAAA",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\UpdateUserIndex.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\User\\UpdateUserIndex.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\UpdateUserIndex.cshtml",
+              "RelativeToolTip": "santsg.project\\Views\\User\\UpdateUserIndex.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T14:37:00.859Z",
+              "WhenOpened": "2024-04-16T14:03:40.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteUserIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\DeleteUserIndex.cshtml",
+              "RelativeDocumentMoniker": "santsg.project\\Views\\User\\DeleteUserIndex.cshtml",
+              "ToolTip": "C:\\Users\\yesim\\source\\repos\\santsg.project\\santsg.project\\Views\\User\\DeleteUserIndex.cshtml",
+              "RelativeToolTip": "santsg.project\\Views\\User\\DeleteUserIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T13:13:41.3Z",
               "EditorCaption": ""
             }
           ]

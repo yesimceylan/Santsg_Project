@@ -40,7 +40,7 @@ namespace santsg.project.Controllers
         public IActionResult GetUserIndex()
         {
             var users = _dbContext.Users.ToList();
-            Log.Information("Hotels listed.");
+            Log.Information("Users listed.");
             return View(users);
         }
 
