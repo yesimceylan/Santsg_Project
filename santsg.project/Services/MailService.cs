@@ -18,9 +18,9 @@ namespace santsg.project.Services
             SmtpClient smptClient = new();
 
             newmail.To.Add(toMail);
-            newmail.Subject=subject;
-            newmail.Body=body;
-            newmail.From= new(selfmail, "Test", Encoding.UTF8);
+            newmail.Subject = subject;
+            newmail.Body = body;
+            newmail.From = new(selfmail, "Test", Encoding.UTF8);
 
             smptClient.Credentials = new NetworkCredential(selfmail, "pjgd moin bqnl bvkb");
             smptClient.EnableSsl = true;
